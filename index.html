@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>D Tetrix</title>
+    <title>D TTX</title>
     <style>
       html {
         font-family: sans-serif;
@@ -24,15 +24,15 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   <body>
-    <h1>Tis demo</h1>
+    <h1>Demo de TTX</h1>
     <p>
-      <a href="http://github.com/ttencate/tis">Tis on GitHub</a>
+      <a href="https://github.com/DiegoIES/Personal">Codigo en GitHub</a>
     </p>
     <p>
       Size: <span id="size"></span> (<span id="delta"></span>)
     </p>
     <pre id="code"></pre>
-    <p>If you quit Tis, type the <a href="https://en.wikipedia.org/wiki/Konami_Code">Konami code</a> to get it back.</p>
+    <p>Si has quitado Tis, escribe el <a href="https://en.wikipedia.org/wiki/Konami_Code">código Konami</a> para volver atras.</p>
     <script>
       $.get('tis.min.js', function(code, textStatus, xhr) {
         // These are actually characters, not bytes. But we don't use any Unicode.
